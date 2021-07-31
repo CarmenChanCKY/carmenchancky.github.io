@@ -27,7 +27,7 @@ function PersonalInfoPanel() {
             </a>
           </div>
           <div className="left-padding">
-            <a href="https://github.com/CarmenChanKaYing" target="_blank">
+            <a href="https://github.com/CarmenChanCKY" target="_blank">
               <FontAwesomeIcon icon={faGithub} className="personal-info-icon" />
             </a>
           </div>
