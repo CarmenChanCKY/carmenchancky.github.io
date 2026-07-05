@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-project-thumbnail-container-bg: #ecefec;
+  --color-project-bg: #ecefec;
+  --color-personal-info-bg: #12263a;
+  --color-personal-info-text: #f0ece8;
+  --color-personal-info-text-hover: #cbb7a1;
+  --color-project-thumbnail-division-line: #daddd8;
+  --color-project-detail-main: #12263a;
+  --color-project-detail-hover: #205264;
+}

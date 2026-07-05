@@ -8,31 +8,26 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "deploy": "gatsby build && gh-pages -d public -b main"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.35",
-    "@fortawesome/free-brands-svg-icons": "^5.15.3",
-    "@fortawesome/free-solid-svg-icons": "^5.15.3",
-    "@fortawesome/react-fontawesome": "^0.1.14",
-    "bootstrap": "^4.6.0",
-    "gatsby": "^3.10.2",
-    "gatsby-plugin-react-helmet": "^4.5.0",
-    "gatsby-plugin-sass": "^4.3.0",
-    "react": "^17.0.1",
-    "react-bootstrap": "^1.5.2",
-    "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0",
-    "react-swipeable": "^6.1.0",
-    "sass": "^1.32.11"
+    "gatsby": "^5.16.0",
+    "gatsby-plugin-postcss": "^6.16.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
     "gh-pages": "^3.1.0",
-    "prettier": "2.2.1"
+    "postcss": "^8.5.0",
+    "prettier": "2.2.1",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.7.0"
   },
   "repository": {
     "type": "git",
