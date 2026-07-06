@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Tirra:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@theme {
+  --font-sans: "Tirra", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Ubuntu Mono", monospace;
+  --color-project-thumbnail-container: #fbfbfb;
+  --color-project: #fcfaf6;
+  --color-personal-info: #12263a;
+  --color-personal-info-text: #f0ece8;
+  --color-personal-info-text-hover: #7fc7d9;
+  --color-project-thumbnail-division-line: #e6e6e6;
+}
+
+@custom-variant short-screen (@media (max-height: 570px));
