@@ -6,8 +6,9 @@ interface ProjectTagProps {
 
 function ProjectTag({ language }: ProjectTagProps) {
   return (
-    <div className="bg-project-detail-main text-personal-info-text text-[14px] px-2 py-[5px] mr-[10px] mt-2 hover:bg-project-detail-hover hover:transition-colors duration-300 cursor-default">
-      #{language}
+    <div className="text-sm bg-[#D0E8F2] rounded-sm px-1 font-mono">
+      <span className="mr-0.5">#</span>
+      {language}
     </div>
   )
 }

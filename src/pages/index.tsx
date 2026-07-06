@@ -4,14 +4,14 @@ import ProjectPanel from "../components/projectPanel"
 
 function MainPage() {
   return (
-    <div className="flex flex-col xl:flex-row h-screen min-h-screen">
-      <div className="bg-personal-info-bg xl:w-1/4 lg:w-1/3">
+    <main className="flex flex-col lg:flex-row short-screen:flex-col min-h-screen">
+      <div className="bg-personal-info h-auto lg:w-1/4 lg:sticky lg:top-0 lg:self-start lg:h-screen short-screen:w-full short-screen:h-auto short-screen:relative">
         <PersonalInfoPanel />
       </div>
-      <div className="bg-project-bg xl:w-3/4 lg:w-2/3">
+      <div className="bg-project lg:w-3/4 lg:h-screen lg:overflow-y-auto short-screen:w-full short-screen:h-auto short-screen:overflow-visible">
         <ProjectPanel />
       </div>
-    </div>
+    </main>
   )
 }
 

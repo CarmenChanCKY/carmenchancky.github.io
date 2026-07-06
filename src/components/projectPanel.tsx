@@ -4,15 +4,11 @@ import projectData from "../projectDatabase.json"
 
 function ProjectPanel() {
   return (
-    <div className="h-full flex flex-col justify-center items-center xl:grid xl:grid-cols-2 xl:justify-items-center xl:content-center xl:items-center">
-      {projectData.map((value) => (
-        <ProjectThumbnail
-          key={value.slug}
-          img={value.thumbnail}
-          title={value.title}
-        />
+    <section className="min-h-screen grid grid-cols-[1fr] md:grid-cols-[1fr_1fr] justify-center py-7 px-5 sm:px-8 gap-x-6 gap-y-10">
+      {projectData.map((data, index) => (
+        <ProjectThumbnail key={index} {...data} />
       ))}
-    </div>
+    </section>
   )
 }
 

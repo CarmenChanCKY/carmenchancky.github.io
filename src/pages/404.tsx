@@ -3,9 +3,9 @@ import { Link } from "gatsby"
 
 function NotFoundPage() {
   return (
-    <div className="h-full w-full bg-project-thumbnail-container-bg flex flex-col justify-center items-center">
-      <div className="text-[28px] py-[25px]">404 Not Found</div>
-      <div className="text-[20px]">
+    <div className="h-screen w-screen bg-project-thumbnail-container flex flex-col justify-center items-center">
+      <div className="text-[1.75rem] py-6.25">404 Not Found</div>
+      <div className="text-red">
         <Link to="/">Back</Link>
       </div>
     </div>

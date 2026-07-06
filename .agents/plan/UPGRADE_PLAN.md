@@ -97,14 +97,12 @@ module.exports = {
 @import "tailwindcss";
 
 @theme {
-  --color-project-thumbnail-container-bg: #ecefec;
-  --color-project-bg: #ecefec;
-  --color-personal-info-bg: #12263a;
+  --color-project-thumbnail-container: #ecefec;
+  --color-project: #ecefec;
+  --color-personal-info: #12263a;
   --color-personal-info-text: #f0ece8;
   --color-personal-info-text-hover: #cbb7a1;
   --color-project-thumbnail-division-line: #daddd8;
-  --color-project-detail-main: #12263a;
-  --color-project-detail-hover: #205264;
 }
 ```
 
@@ -137,7 +135,7 @@ export default config;
 ### `src/components/personalInfoPanel.tsx`:
 - Inline SVG icons for email and GitHub (no FontAwesome)
 - Tailwind responsive classes
-- Colors: `bg-personal-info-bg`, `text-personal-info-text`, etc.
+- Colors: `bg-personal-info`, `text-personal-info-text`, etc.
 
 ### `src/components/projectPanel.tsx`:
 - Tailwind grid: `grid grid-cols-1 xl:grid-cols-2`
