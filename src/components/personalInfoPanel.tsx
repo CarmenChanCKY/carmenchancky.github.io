@@ -1,4 +1,5 @@
 import React from "react"
+import { StaticImage } from "gatsby-plugin-image"
 import ProjectCopyright from "./projectCopyright"
 
 function EnvelopeIcon() {
@@ -31,28 +32,32 @@ function PersonalInfoPanel() {
   return (
     <section className="short-screen:h-auto h-auto lg:h-screen text-personal-info-text grid lg:grid-rows-[2fr_2fr_1fr] items-center justify-items-center pt-4 lg:pt-2 pb-4 px-3 max-lg:gap-y-3">
       <div className="self-end">
-        <img
-          src="images/profile_pic.JPG"
+        <StaticImage
+          src="../images/profile_pic.JPG"
           alt="Profile Picture"
           className="size-48 lg:size-56 xl:size-62.5 rounded-full object-cover object-center"
         />
       </div>
       <div className="flex flex-col items-center gap-6 lg:gap-12">
         <div>
-          <h1 className="font-bold text-2xl">
-            Carmen Chan
-          </h1>
+          <h1 className="font-bold text-2xl">Carmen Chan</h1>
           <div className="flex flex-row justify-center mt-2 gap-x-14 lg:gap-x-8">
             <a href="mailto:kychan100798@gmail.com">
               <EnvelopeIcon />
             </a>
-            <a href="https://github.com/CarmenChanCKY" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://github.com/CarmenChanCKY"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <GithubIcon />
             </a>
           </div>
         </div>
         <div className="text-center text-base lg:max-xl:text-sm *:mb-2">
-          <p>HTML | CSS | SCSS | JavaScript | TypeScript | Vue | Angular | React </p>
+          <p>
+            HTML | CSS | SCSS | JavaScript | TypeScript | Vue | Angular | React{" "}
+          </p>
           <p>PHP | Couchbase | SQL | Node.js | Laravel </p>
           <p>Flutter | Java</p>
         </div>

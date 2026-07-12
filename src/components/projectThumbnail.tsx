@@ -3,7 +3,7 @@ import ProjectTag from "./projectTag"
 
 interface ProjectThumbnailProps {
   title: string
-  thumbnail: string
+  thumbnailElement: React.ReactNode
   languages: string[]
   content: string
   github: string
@@ -13,7 +13,7 @@ interface ProjectThumbnailProps {
 
 function ProjectThumbnail({
   title,
-  thumbnail,
+  thumbnailElement,
   languages,
   content,
   github,
@@ -22,11 +22,7 @@ function ProjectThumbnail({
 }: ProjectThumbnailProps) {
   return (
     <div className="bg-project-thumbnail-container rounded-md w-full border border-project-thumbnail-division-line">
-      <img
-        src={thumbnail}
-        alt="Thumbnail"
-        className="w-full object-cover object-top rounded-t-md border-b border-b-project-thumbnail-division-line aspect-video"
-      />
+      {thumbnailElement}
 
       <div className="px-3 py-3">
         <p className="text-black font-bold text-lg lg:text-xl mb-1">{title}</p>
