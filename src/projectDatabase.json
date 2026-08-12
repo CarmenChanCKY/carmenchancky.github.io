@@ -2,8 +2,8 @@
   {
     "title": "My Programming Journey",
     "thumbnail": "images/blog_homePage.png",
-    "languages": ["Vue", "Nuxt", "TypeScript", "Node.js", "Express.js", "SQL"],
-    "content": "A personal programming blog sharing bugs I've solved and coding tutorials",
+    "languages": ["Vue", "Nuxt", "TypeScript", "ReactJS", "Node.js", "Express.js", "SQL"],
+    "content": "Full-stack blog platform for sharing bug solutions and coding tutorials. Built with Nuxt 3 frontend, Express 5 backend, and React CMS. Includes session auth, Google Drive image uploads, rich text editing with syntax highlighting, and Dockerized MySQL deployment for managing posts, categories, and tags.",
     "github": "https://github.com/CarmenChanCKY/my-programming-journey",
     "demo": "https://myprogrammingjourney.ckying.com"
   },
@@ -11,7 +11,7 @@
     "title": "LeetCode Record",
     "thumbnail": "images/leetcode_homePage.png",
     "languages": ["Markdown", "Docsify", "Prism.js"],
-    "content": "Record the solution and mindset about the leetcode question I have solved.",
+    "content": "A Docsify-powered knowledge base documenting my solved LeetCode problems. Each entry pairs the full solution walkthrough with the underlying problem-solving mindset, organized by difficulty. Searchable and built for rapid revision — turning practice patterns into interview-day execution.",
     "github": "https://github.com/CarmenChanCKY/leetcode-record",
     "demo": "https://carmenchancky.github.io/leetcode-record/#/"
   },
@@ -19,7 +19,7 @@
     "title": "Shopping Cart Website",
     "thumbnail": "images/shopping_cart_homePage.JPG",
     "languages": ["HTML", "SCSS", "ReactJS", "JavaScript"],
-    "content": "An online shopping cart simulator where users can browse products and manage their cart just like on a real e-commerce site.",
+    "content": "A fully responsive e-commerce cart simulator built with React and React Router. Users browse a product catalog, add items to cart, adjust quantities, and track totals in real time. Demonstrates component architecture, client-side routing, state management, and Bootstrap-styled UI — production-grade front-end engineering.",
     "description": "Idea from The Odin Project",
     "github": "https://github.com/CarmenChanCKY/Odin-Shopping-Cart",
     "demo": "https://carmenchancky.github.io/Odin-Shopping-Cart/#/"
@@ -28,7 +28,7 @@
     "title": "Battleship Game Play",
     "thumbnail": "images/battleship_homePage.JPG",
     "languages": ["HTML", "CSS", "JavaScript", "jQuery"],
-    "content": "A customizable web-based Battleship game where players can configure game settings and play against the computer.",
+    "content": "A fully client-side, customizable Battleship game. Players configure game rules, place and attack ships via click-driven sea gameplay, and challenge a competitive computer AI. Pure HTML/CSS/JavaScript delivers zero-dependency, instantly playable naval strategy—no backend, no setup, no compromises.",
     "github": "https://github.com/CarmenChanCKY/SimpleBattleShipGame",
     "demo": "https://carmenchancky.github.io/SimpleBattleShipGame/"
   },
@@ -36,7 +36,7 @@
     "title": "Sorting Algorithm Learning Platform",
     "thumbnail": "images/sorting_index.JPG",
     "languages": ["PHP", "HTML", "CSS", "JavaScript", "jQuery", "SQL"],
-    "content": "A student learning platform for mastering Bubble, Selection, and Insertion sort through interactive tutorials and tracked quizzes.",
+    "content": "Interactive learning platform teaching Bubble, Selection, and Insertion sort through hands-on tutorials and progress-tracked quizzes. Students practice, test, and master algorithms in a measurable workflow—turning theory into applied skill. Engineered for real classroom impact.",
     "description": "Assignment of COMP3421 Web Application Design and Development - PolyU",
     "github": "https://github.com/CarmenChanCKY/SortingAlgorithmLearningPlatform"
   }
