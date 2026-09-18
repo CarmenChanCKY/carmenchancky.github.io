@@ -8,6 +8,7 @@ interface ProjectThumbnailProps {
   content: string
   github: string
   demo?: string
+  blog?: string
   description?: string
 }
 
@@ -18,6 +19,7 @@ function ProjectThumbnail({
   content,
   github,
   demo,
+  blog,
   description,
 }: ProjectThumbnailProps) {
   return (
@@ -52,6 +54,18 @@ function ProjectThumbnail({
           >
             Github
           </a>
+          {blog !== undefined && blog !== null && blog !== "" ? (
+            <a
+              className="rounded-sm px-2 py-1 ml-3 bg-rose-300 font-mono text-white"
+              href={blog}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Blog
+            </a>
+          ) : (
+            ""
+          )}
           {demo !== undefined && demo !== null && demo !== "" ? (
             <a
               className="rounded-sm px-2 py-1 ml-3 bg-sky-500 font-mono text-white"

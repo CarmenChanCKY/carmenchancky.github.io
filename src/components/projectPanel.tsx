@@ -48,6 +48,14 @@ function getThumbnailElement(thumbnail: string): React.ReactElement {
           className={THUMBNAIL_CLASS}
         />
       )
+    case "images/rate_limiter_gateway.png":
+      return (
+        <StaticImage
+          src="../images/rate_limiter_gateway.png"
+          alt="Thumbnail"
+          className={THUMBNAIL_CLASS}
+        />
+      )
     default:
       return <div className={THUMBNAIL_CLASS} />
   }

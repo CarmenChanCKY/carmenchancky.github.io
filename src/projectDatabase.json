@@ -2,10 +2,36 @@
   {
     "title": "My Programming Journey",
     "thumbnail": "images/blog_homePage.png",
-    "languages": ["Vue", "Nuxt", "TypeScript", "ReactJS", "Node.js", "Express.js", "SQL"],
+    "languages": [
+      "Vue",
+      "Nuxt",
+      "TypeScript",
+      "ReactJS",
+      "Node.js",
+      "Express.js",
+      "Tailwind CSS",
+      "SQL",
+      "Docker"
+    ],
     "content": "Full-stack blog platform for sharing bug solutions and coding tutorials. Built with Nuxt 3 frontend, Express 5 backend, and React CMS. Includes session auth, Google Drive image uploads, rich text editing with syntax highlighting, and Dockerized MySQL deployment for managing posts, categories, and tags.",
     "github": "https://github.com/CarmenChanCKY/my-programming-journey",
     "demo": "https://myprogrammingjourney.ckying.com"
+  },
+  {
+    "title": "API Rate Limiter & Reverse Proxy Gateway",
+    "thumbnail": "images/rate_limiter_gateway.png",
+    "languages": [
+      "TypeScript",
+      "Node.js",
+      "Express.js",
+      "Redis",
+      "k6",
+      "Docker",
+      "Jest"
+    ],
+    "content": "An API rate-limiter and reverse proxy gateway built with Node.js, TypeScript, Express, and Redis. It authenticates requests via bearer API keys, enforces per-key token-bucket rate limiting backed by atomic Redis Lua scripts, forwards traffic to a target API, and was tested for concurrency and k6 performance.",
+    "github": "https://github.com/CarmenChanCKY/api-rate-limiter-gateway",
+    "blog": "https://myprogrammingjourney.ckying.com/tags/search/api-rate-limiter-gateway/#/"
   },
   {
     "title": "LeetCode Record",
