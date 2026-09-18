@@ -31,7 +31,7 @@
     ],
     "content": "An API rate-limiter and reverse proxy gateway built with Node.js, TypeScript, Express, and Redis. It authenticates requests via bearer API keys, enforces per-key token-bucket rate limiting backed by atomic Redis Lua scripts, forwards traffic to a target API, and was tested for concurrency and k6 performance.",
     "github": "https://github.com/CarmenChanCKY/api-rate-limiter-gateway",
-    "blog": "https://myprogrammingjourney.ckying.com/tags/search/api-rate-limiter-gateway/#/"
+    "blog": "https://myprogrammingjourney.ckying.com/#/tags/search/api-rate-limiter-gateway/"
   },
   {
     "title": "LeetCode Record",
