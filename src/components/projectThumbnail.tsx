@@ -23,10 +23,10 @@ function ProjectThumbnail({
   description,
 }: ProjectThumbnailProps) {
   return (
-    <div className="bg-project-thumbnail-container rounded-md w-full border border-project-thumbnail-division-line">
+    <div className="bg-project-thumbnail-container rounded-md w-full h-full border border-project-thumbnail-division-line flex flex-col">
       {thumbnailElement}
 
-      <div className="px-3 py-3">
+      <div className="px-3 py-3 flex flex-col flex-1">
         <p className="text-black font-bold text-lg lg:text-xl mb-1">{title}</p>
 
         <div className="flex flex-wrap gap-y-2 gap-x-2 mb-2">
@@ -45,7 +45,7 @@ function ProjectThumbnail({
           ""
         )}
 
-        <div className="text-right">
+        <div className="text-right mt-auto pt-4">
           <a
             className="rounded-sm px-2 py-1 bg-[#8534F3] font-mono text-white"
             href={github}
